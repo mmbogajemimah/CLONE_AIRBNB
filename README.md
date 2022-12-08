@@ -1,7 +1,8 @@
 ## AirBnB clone - The console
 -> The console helps to: Place the parent Class (BaseModel) to take care of the initialization, serialization and deserialization of future instances
 
--> Create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
+-> Create a simple flow of serialization/deserialization: 
+      Instance <-> Dictionary <-> JSON string <-> file
 -> Create all classes used for AirBnB(User, state, City, Place, Amenities, Reviews ...) that inherit from the BaseModel
 -> Create the first abstructed storage engine of the project: File Storage
 -> Create Unitests to validate all our class and storage engine
